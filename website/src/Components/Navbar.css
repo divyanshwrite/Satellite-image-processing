@@ -116,7 +116,7 @@
 .navbar-auth button {
   background-color: #4285F4;
   color: white;
-  border: none;
+  border: 21px soild #FFF;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -125,4 +125,9 @@
 
 .navbar-auth button:hover {
   background-color: #357ae8;
+}
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
 }

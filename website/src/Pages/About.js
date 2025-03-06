@@ -91,7 +91,7 @@ const About = () => {
           <Link to='/terms'>Terms and Conditions</Link>
         </div>
         <div className="copyright">
-          &copy; {new Date().getFullYear()} ISMEA. All rights reserved.
+          &copy; {new Date().getFullYear()} SatMind. All rights reserved.
         </div>
       </footer>
     </div>

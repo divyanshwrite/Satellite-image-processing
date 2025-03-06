@@ -1,12 +1,9 @@
 .container-feature {
-  height: 50vh;
   margin-top: 10%;
   padding: 10%;
-  background: #1f1f1f;
   display: flex;
   justify-content: center;
   overflow: hidden;
-  background-image: url('../images/cosmos-1853491_1280.jpg');
 }
 
 .container-feature .feature {
@@ -34,6 +31,7 @@
   border-radius: 15px;
   cursor: pointer;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .card::before,

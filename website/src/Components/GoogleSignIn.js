@@ -12,7 +12,7 @@ const GoogleSignIn = ({ onLoginSuccess }) => {
   });
 
   return (
-    <button onClick={() => login()}>Sign in with Google</button>
+    <button className='auth-link' onClick={() => login()}>Sign in</button>
   );
 };
 
